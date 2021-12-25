@@ -24,3 +24,33 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/* My Code  */
+
+header,
+.cont-fruit,
+.media-fruit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin: 32px;
+}
+
+.media-fruit {
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.media-fruit img {
+  margin-bottom: 2rem;
+}
+
+.media-fruit .text {
+  margin-right: 26px;
+  margin-left: 26px;
+  text-align: center;
+}
